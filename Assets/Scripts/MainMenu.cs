@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public bool isStart;
     public bool isQuit;
@@ -18,11 +19,11 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
-    void OnClick()
+    public void OnMouseUp()
     {
         if (isStart)
         {
-            Application.LoadLevel(1);
+            SceneManager.LoadScene("SampleScene");
         }
         if (isQuit)
         {
