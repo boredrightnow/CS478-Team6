@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
     {
         if (isStart)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("HedgeMaze");
         }
         if (isQuit)
         {
