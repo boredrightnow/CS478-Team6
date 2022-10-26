@@ -11,6 +11,13 @@ public class PlayerControl : MonoBehaviour
 
     private Animator animator;
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == 6)
+        {
+            isMoving = false;
+        }
+    }
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -35,6 +42,7 @@ public class PlayerControl : MonoBehaviour
 
                 StartCoroutine(Move(targetPos));
             }
+
         }
         animator.SetBool("IsMoving", isMoving);
     }

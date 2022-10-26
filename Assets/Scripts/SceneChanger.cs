@@ -8,10 +8,20 @@ public class SceneChanger : MonoBehaviour
 
     private List<string> sceneHistory = new List<string>();  //running history of scenes
                                                              //The last string in the list is always the current scene running
+    public string newLevel;
+    
 
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);  //Allow this object to persist between scene changes
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(newLevel);
+        }
     }
 
     //Call this whenever you want to load a new scene
