@@ -4,29 +4,26 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public float moveSpeed =1f;
+    public float moveSpeed;
 
-    public float collisionOffset = 0.05f;
-
+    public float collisionOffset = 0.001f;
     public ContactFilter2D movementFilter;
-
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
-
     private Rigidbody2D rb;
 
     //private bool isMoving;
-
     private Vector2 input;
-
     private Animator animator;
 
-    /*private void OnCollisionEnter2D(Collision2D collision)
+    /*
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 6)
         {
             isMoving = false;
         }
-    }*/
+    }
+    */
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -81,9 +78,10 @@ public class PlayerControl : MonoBehaviour
             return false;
         }
     }
+    
 
-
-   /* public void Update()
+    /*
+   public void Update()
     {
         if (!isMoving)
         {
@@ -91,34 +89,30 @@ public class PlayerControl : MonoBehaviour
             input.y = Input.GetAxisRaw("Vertical");
 
             //disables diagonal movements
-            if (input.x != 0) input.y = 0;
-            
-            
+            //if (input.x != 0) input.y = 0;
 
             if(input != Vector2.zero)
             {
-                animator.SetFloat("moveX",input.x);
-                animator.SetFloat("moveY",input.y);
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
 
                 StartCoroutine(Move(targetPos));
             }
-
         }
-        animator.SetBool("IsMoving", isMoving);
     }
+
     IEnumerator Move(Vector3 targetPos)
     {
         isMoving = true;
 
-        while((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
         transform.position = targetPos;
         isMoving = false;
-    }*/
+    }
+    */
 }
