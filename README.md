@@ -7,7 +7,9 @@ Contributors:
 -------------
 
 Ereena Moore - UI
+
 Mia Mitchell - Graphics
+
 Rachel Dame - UX
 
 Introduction:
