@@ -16717,6 +16717,7 @@ GameObject:
   - component: {fileID: 614508919}
   - component: {fileID: 614508918}
   - component: {fileID: 614508917}
+  - component: {fileID: 614508920}
   m_Layer: 5
   m_Name: Save
   m_TagString: Untagged
@@ -16788,7 +16789,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 614508918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 614508920}
+        m_TargetAssemblyTypeName: SavePrefs, Assembly-CSharp
+        m_MethodName: SavePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &614508918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16827,6 +16840,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614508915}
   m_CullTransparentMesh: 1
+--- !u!114 &614508920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614508915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &997966387
 GameObject:
   m_ObjectHideFlags: 0

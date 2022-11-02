@@ -16,6 +16,11 @@ public class SceneChanger : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);  //Allow this object to persist between scene changes
     }
 
+    public List<string> GetSceneHistory()
+    {
+        return sceneHistory;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
