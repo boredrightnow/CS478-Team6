@@ -6,16 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class SavePrefs : MonoBehaviour
 {
-    public GameObject player;
+    public Rigidbody2D player;
+    public GameObject canvas;
 
     public void SavePlayer()
     {
         PlayerPrefs.SetString("CurScene", gameObject.scene.name);
         PlayerPrefs.SetFloat("XCord", player.transform.position.x);
         PlayerPrefs.SetFloat("YCord", player.transform.position.y);
-        PlayerPrefs.SetFloat("ZCord", player.transform.position.z);
         PlayerPrefs.SetInt("SaveFile", 1);
         PlayerPrefs.Save();
+        LoadPlayer();
     }
 
     public void LoadPlayer()
@@ -25,8 +26,8 @@ public class SavePrefs : MonoBehaviour
             SceneManager.LoadScene(PlayerPrefs.GetString("CurScene"));
             float pX = PlayerPrefs.GetFloat("XCord");
             float pY = PlayerPrefs.GetFloat("YCord");
-            float pZ= PlayerPrefs.GetFloat("ZCord");
-            player.transform.position = new Vector3(pX, pY, pZ);
+            Vector2 oldPos = new Vector2(pX, pY);
+            player.MovePosition(oldPos);
         }
         else
         {

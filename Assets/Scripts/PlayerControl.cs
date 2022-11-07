@@ -6,7 +6,7 @@ public class PlayerControl : MonoBehaviour
 {
     public float moveSpeed;
 
-    public float collisionOffset = 0.001f;
+    public float collisionOffset = 0.005f;
     public ContactFilter2D movementFilter;
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Rigidbody2D rb;
@@ -24,14 +24,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
     */
-    public float[] GetPosition()
-    {
-        float[] posit = new float[3];
-        posit[0] = rb.transform.position.x;
-        posit[1] = rb.transform.position.y;
-        posit[2] = rb.transform.position.z;
-        return posit;
-    }
+    
     private void Awake()
     {
         animator = GetComponent<Animator>();

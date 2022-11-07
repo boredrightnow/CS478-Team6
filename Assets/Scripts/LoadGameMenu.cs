@@ -5,16 +5,12 @@ using UnityEngine;
 public class LoadGameMenu : MonoBehaviour
 {
 
-    public GameObject NGame;
-    public GameObject LGame;
-    public GameObject CLoad;
+    public GameObject Can2;
 
     // Start is called before the first frame update
     void Start()
     {
-        NGame.gameObject.SetActive(false);
-        LGame.gameObject.SetActive(false);
-        CLoad.gameObject.SetActive(false);
+        Can2.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,8 +20,6 @@ public class LoadGameMenu : MonoBehaviour
     }
     public void OnMouseUp()
     {
-        NGame.gameObject.SetActive(true);
-        LGame.gameObject.SetActive(true);
-        CLoad.gameObject.SetActive(true);
+        Can2.gameObject.SetActive(true);
     }
 }

@@ -16879,7 +16879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 997966387}
+  player: {fileID: 997966393}
+  canvas: {fileID: 93463974}
 --- !u!1 &842691365
 GameObject:
   m_ObjectHideFlags: 0
@@ -16907,10 +16908,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 842691365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3b8ed532230c348a701d9f7b519b3e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7e3dd8019bdb9f46bcab0b932682d44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 3
+  newLevel: Town
 --- !u!61 &842691367
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17253,7 +17254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034086372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.47, y: 11.33, z: 0}
+  m_LocalPosition: {x: 15.81, y: 11.9, z: 0}
   m_LocalScale: {x: 1.9825542, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17570,6 +17571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 997966387}
+  canvas: {fileID: 0}
 --- !u!1 &1208015608
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-
+    /// <summary>
+    /// I am pretty sure I don't use any of this
+    /// to change scenes, I just use colliders that go brr
+    /// I don't want to delete just in case I do end up needing this
+    /// </summary>
     private List<string> sceneHistory = new List<string>();  //running history of scenes
                                                              //The last string in the list is always the current scene running
     public string newLevel;
