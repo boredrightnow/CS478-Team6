@@ -2,40 +2,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEngine.SceneManagement;
 
 public class SavePrefs : MonoBehaviour
 {
-   public void SavePlayer()
+    public GameObject player;
+
+    public void SavePlayer()
     {
-        BinaryFormatter formatter =new BinaryFormatter();
-        string path = Application.persistentDataPath + "/player.txt";
-        FileStream stream = new FileStream(path, FileMode.Create);
-
-        PlayerData data = new PlayerData();
-
-        formatter.Serialize(stream, data);
-        stream.Close();
+        PlayerPrefs.SetString("CurScene", gameObject.scene.name);
+        PlayerPrefs.SetFloat("XCord", player.transform.position.x);
+        PlayerPrefs.SetFloat("YCord", player.transform.position.y);
+        PlayerPrefs.SetFloat("ZCord", player.transform.position.z);
+        PlayerPrefs.SetInt("SaveFile", 1);
+        PlayerPrefs.Save();
     }
 
-    public static PlayerData LoadPlayer()
+    public void LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/player.txt";
-
-        if(File.Exists(path))
+        if (PlayerPrefs.GetInt("SaveFile") == 1)
         {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Open);
-
-            PlayerData data = formatter.Deserialize(stream) as PlayerData;
-            stream.Close();
-
-            return data;
+            SceneManager.LoadScene(PlayerPrefs.GetString("CurScene"));
+            float pX = PlayerPrefs.GetFloat("XCord");
+            float pY = PlayerPrefs.GetFloat("YCord");
+            float pZ= PlayerPrefs.GetFloat("ZCord");
+            player.transform.position = new Vector3(pX, pY, pZ);
         }
         else
         {
-            Debug.LogError("Save not found");
-            return null;
+            Debug.LogError("NO SAVE FILE FOUND");
         }
     }
-    
+
+    public void ResetData()
+    {
+        PlayerPrefs.DeleteAll();
+        Debug.Log("Data reset complete");
+    }
+
 }
