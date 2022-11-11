@@ -13,11 +13,12 @@ public class MainMenu : MonoBehaviour
     {
         if (isStart)
         {
-            SceneManager.LoadScene("HedgeMaze");
+            SceneManager.LoadScene("HMCutscene");
         }
         if (isQuit)
         {
             Application.Quit();
         }
     }
+    
 }

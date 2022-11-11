@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 342bf9fed365b1f4abed2de7c046e735
   - enabled: 1
+    path: Assets/Scenes/HMCutscene.unity
+    guid: d5b9bb77c27d19d4986630bdbce6f630
+  - enabled: 1
     path: Assets/Scenes/HedgeMaze.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

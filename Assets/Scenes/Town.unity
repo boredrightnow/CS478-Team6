@@ -5075,7 +5075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2052569561}
+  player: {fileID: 2052569564}
+  canvas: {fileID: 545477890}
 --- !u!114 &275276815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6055,7 +6056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2052569561}
+  player: {fileID: 2052569564}
+  canvas: {fileID: 545477890}
 --- !u!114 &1369154757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9996,7 +9998,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746739021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.02, y: 10.04, z: 0}
+  m_LocalPosition: {x: -6.98, y: 4.42, z: 0}
   m_LocalScale: {x: 1.9825542, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
