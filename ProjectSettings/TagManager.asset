@@ -53,3 +53,6 @@ TagManager:
   - name: Front
     uniqueID: 3473217693
     locked: 0
+  - name: NPC
+    uniqueID: 2263241367
+    locked: 0
