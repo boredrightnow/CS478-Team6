@@ -17099,7 +17099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  collisionOffset: 0.001
+  collisionOffset: 0.05
   movementFilter:
     useTriggers: 0
     useLayerMask: 0
