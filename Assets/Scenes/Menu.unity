@@ -407,6 +407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   canvas: {fileID: 0}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!1 &176798926
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   canvas: {fileID: 0}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!114 &202479129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5286,6 +5290,7 @@ GameObject:
   - component: {fileID: 692051971}
   - component: {fileID: 692051970}
   - component: {fileID: 692051969}
+  - component: {fileID: 692051973}
   - component: {fileID: 692051972}
   m_Layer: 5
   m_Name: Start
@@ -5371,6 +5376,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 692051973}
+        m_TargetAssemblyTypeName: SavePrefs, Assembly-CSharp
+        m_MethodName: CheckIfSave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &692051970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5422,6 +5439,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Can2: {fileID: 721471858}
+--- !u!114 &692051973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692051967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  Loadbtn: {fileID: 140489790}
+  Clearbtn: {fileID: 202479125}
 --- !u!1 &693554574
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,6 +5631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   canvas: {fileID: 0}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!1 &704071567
 GameObject:
   m_ObjectHideFlags: 0

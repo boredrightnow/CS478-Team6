@@ -16747,7 +16747,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -16976,8 +16976,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 997966393}
+  player: {fileID: 997966387}
   canvas: {fileID: 93463974}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!1 &842691365
 GameObject:
   m_ObjectHideFlags: 0
@@ -17064,6 +17066,7 @@ GameObject:
   - component: {fileID: 997966391}
   - component: {fileID: 997966393}
   - component: {fileID: 997966392}
+  - component: {fileID: 997966394}
   m_Layer: 0
   m_Name: werewolf
   m_TagString: Player
@@ -17233,6 +17236,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &997966394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997966387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 997966387}
+  canvas: {fileID: 0}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!1 &1034086372
 GameObject:
   m_ObjectHideFlags: 0
@@ -17667,8 +17686,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abdb4eb63b50fa4d8c6cfc580a271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 997966393}
+  player: {fileID: 997966387}
   canvas: {fileID: 93463974}
+  Loadbtn: {fileID: 0}
+  Clearbtn: {fileID: 0}
 --- !u!1 &1208015608
 GameObject:
   m_ObjectHideFlags: 0

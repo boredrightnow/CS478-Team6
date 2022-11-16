@@ -6,8 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class SavePrefs : MonoBehaviour
 {
-    public Rigidbody2D player;
+    public GameObject player;
     public GameObject canvas;
+    public GameObject Loadbtn;
+    public GameObject Clearbtn;
+
+    public void Start()
+    {
+        Loadbtn.SetActive(false);
+        Clearbtn.SetActive(false);
+    }
 
     public void SavePlayer()
     {
@@ -16,7 +24,23 @@ public class SavePrefs : MonoBehaviour
         PlayerPrefs.SetFloat("YCord", player.transform.position.y);
         PlayerPrefs.SetInt("SaveFile", 1);
         PlayerPrefs.Save();
-        LoadPlayer();
+    }
+
+    public void CheckIfSave()
+    {
+        if (PlayerPrefs.GetInt("SaveFile")==1)
+        {
+            Loadbtn.SetActive(true);
+            Clearbtn.SetActive(true);
+        }
+    }
+
+    void ChangePos()
+    {
+        float pX = PlayerPrefs.GetFloat("XCord");
+        float pY = PlayerPrefs.GetFloat("YCord");
+        Vector2 oldPos = new Vector2(pX, pY);
+        player.transform.position = oldPos;
     }
 
     public void LoadPlayer()
@@ -24,10 +48,8 @@ public class SavePrefs : MonoBehaviour
         if (PlayerPrefs.GetInt("SaveFile") == 1)
         {
             SceneManager.LoadScene(PlayerPrefs.GetString("CurScene"));
-            float pX = PlayerPrefs.GetFloat("XCord");
-            float pY = PlayerPrefs.GetFloat("YCord");
-            Vector2 oldPos = new Vector2(pX, pY);
-            player.MovePosition(oldPos);
+            ChangePos();
+            
         }
         else
         {
