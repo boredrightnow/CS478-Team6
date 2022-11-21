@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RockMaze.unity
     guid: 31f6da40921a577409a171995566774b
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 59869ac587609c245b9d5f64d44a31fc
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: 6f3a3b0a6e6a6a7408a8052b7fb098b3
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 9b20ba116ffa36746a0f2a2ed102f61a
   m_configObjects: {}
