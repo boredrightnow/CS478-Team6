@@ -10450,7 +10450,6 @@ GameObject:
   - component: {fileID: 472715626}
   - component: {fileID: 472715632}
   - component: {fileID: 472715631}
-  - component: {fileID: 472715633}
   m_Layer: 0
   m_Name: werewolf
   m_TagString: Player
@@ -10728,18 +10727,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!168 &472715633
-AudioEchoFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472715624}
-  m_Enabled: 1
-  m_Delay: 900
-  m_DecayRatio: 1
-  m_WetMix: 1
-  m_DryMix: 1
 --- !u!1 &615859994
 GameObject:
   m_ObjectHideFlags: 0
