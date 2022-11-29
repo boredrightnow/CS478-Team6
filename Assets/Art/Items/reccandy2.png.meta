@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 62de2e701dd28254ab8eeb1f339338ce
+guid: 9ce80f02cd8f1c04a9ca0236985aedf7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: swamp_0
+      name: reccandy2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 54
-        width: 13
-        height: 16
+        x: 0
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31e8db8b28c50c24f9600b38895cdcfa
-      internalID: -24197362
+      spriteID: b1d9b3834906d404b9e92a4df39f05ab
+      internalID: 1808605691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_1
+      name: reccandy2_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 55
-        width: 14
-        height: 16
+        x: 32
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3670013226b1ec4a85ea4897197e272
-      internalID: 30087782
+      spriteID: 8b5e1de83e48cf940a1d42b9fab0f2ab
+      internalID: 2038687484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_2
+      name: reccandy2_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 54
-        width: 13
-        height: 16
+        x: 64
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72191b6c0aa900c419ef6ddb645bf5e2
-      internalID: 1981775088
+      spriteID: 4d182a53d6b0c8b488e48f1308359f7a
+      internalID: 32169721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_3
+      name: reccandy2_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 36
-        width: 11
-        height: 16
+        x: 96
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22dd061ada633ff458a35c99eed66c99
-      internalID: -1625574728
+      spriteID: 7697b3e9abb35c142ba18e0413953d1a
+      internalID: -451400062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_4
+      name: reccandy2_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 37
-        width: 9
-        height: 16
+        x: 128
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8556eb7836b7e364aad9ae8089ff57a2
-      internalID: -1858087703
+      spriteID: 56819348b60e08f43a6887576f750808
+      internalID: -1338168293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_5
+      name: reccandy2_5
       rect:
         serializedVersion: 2
-        x: 34
-        y: 36
-        width: 10
-        height: 16
+        x: 160
+        y: 31
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,83 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93d26bd6c673103449eb25debe1b0db2
-      internalID: 406066822
+      spriteID: fee3bde768d23864e8589077595c7f33
+      internalID: -996388810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_6
+      name: reccandy2_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 18
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5998877c08956f428c79a287b69df27
-      internalID: -230739542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: swamp_7
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 19
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6649e35d8e397ff4c9fbfd037c2ae2ef
-      internalID: -2081454163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: swamp_8
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 18
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad00308e3b5f58b4cb0819e467e0b620
-      internalID: 830992427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: swamp_9
-      rect:
-        serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 10
-        height: 16
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,41 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc882e9d0029c794ba6892d94644b44a
-      internalID: -112162625
+      spriteID: c11a0726ece0ef44894ec4671d6ab069
+      internalID: -1626000661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swamp_10
+      name: reccandy2_7
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 546c69df7d7dc7b408fc689d24e9b685
-      internalID: -1596180092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: swamp_11
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 32
         y: 0
-        width: 11
-        height: 16
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,8 +266,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96a50b9ce9c2d0c47ac5837c46276fd5
-      internalID: -688790100
+      spriteID: dd2dde6f3a5b1024cadb9f6cd12292a3
+      internalID: -305020933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reccandy2_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74177eb59935a5a48a38da94d26bb5a7
+      internalID: 2026992039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reccandy2_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2dca164fb25b41867a4ec77fe9d71
+      internalID: -1497025004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reccandy2_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953b4c1fcd64544693646119ebd3aeb
+      internalID: 1183247135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reccandy2_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc766fcdac1c548bde0df9b33e6e39
+      internalID: 765618777
       vertices: []
       indices: 
       edges: []
@@ -379,18 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      swamp_0: -24197362
-      swamp_5: 406066822
-      swamp_8: 830992427
-      swamp_4: -1858087703
-      swamp_1: 30087782
-      swamp_2: 1981775088
-      swamp_9: -112162625
-      swamp_3: -1625574728
-      swamp_7: -2081454163
-      swamp_10: -1596180092
-      swamp_6: -230739542
-      swamp_11: -688790100
+      reccandy2_5: -996388810
+      reccandy2_4: -1338168293
+      reccandy2_7: -305020933
+      reccandy2_6: -1626000661
+      reccandy2_10: 1183247135
+      reccandy2_11: 765618777
+      reccandy2_3: -451400062
+      reccandy2_2: 32169721
+      reccandy2_9: -1497025004
+      reccandy2_8: 2026992039
+      reccandy2_1: 2038687484
+      reccandy2_0: 1808605691
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
