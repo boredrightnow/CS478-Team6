@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HedgeMaze.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 12897dec1b46ea142bace94783341616
+  - enabled: 1
     path: Assets/Scenes/RockMaze.unity
     guid: 31f6da40921a577409a171995566774b
   - enabled: 1

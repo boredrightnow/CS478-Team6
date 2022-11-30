@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NPCDialogue : MonoBehaviour
 {
     public GameObject DialogueWindow;
     public GameObject textbox;
     public GameObject NPCname;
+    public GameObject cutscene;
     public int NPC;
     private string dialogue;
     // Start is called before the first frame update
@@ -21,10 +23,22 @@ public class NPCDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.Return))
         {
             DialogueWindow.gameObject.SetActive(false);
+            cutscene.SetActive(true);
         }
+    }
+    void SendToBeginning()
+    {
+        float cutscenetime = Time.deltaTime + 3;
+        cutscene.SetActive(true);
+        while (cutscenetime >= Time.deltaTime)
+        {
+
+        }
+        SceneManager.LoadScene("Forest");
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -49,6 +63,46 @@ public class NPCDialogue : MonoBehaviour
                     NPCname.GetComponent<TMP_Text>().text = "Gator";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
+                case 4:
+                    dialogue =  "I’m not the monster you're looking for! You should turn back.";
+                    NPCname.GetComponent<TMP_Text>().text = "Yung Mummy";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 5:
+                    dialogue = "This isn’t the path you’re looking for. Move along.";
+                    NPCname.GetComponent<TMP_Text>().text = "Frankfurt";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 6:
+                    dialogue = "It’s dangerous to go alone, go find a better path.";
+                    NPCname.GetComponent<TMP_Text>().text = "Clawden";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 7:
+                    dialogue = "C'mon now... you'll get there.... eventually.. The trees aren't as thick as they look..";
+                    NPCname.GetComponent<TMP_Text>().text = "Mumopatra";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 8:
+                    dialogue = "Hehe, I guess I should open the way for you.";
+                    NPCname.GetComponent<TMP_Text>().text = "Franky";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 9:
+                    dialogue = "MHHFMH AHHH GAGHHAA GRRR (GOD I'M LOST IN HERE TOO)";
+                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                /*case 10:
+                    dialogue = "It’s dangerous to go alone, go find a better path.";
+                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 11:
+                    dialogue = "It’s dangerous to go alone, go find a better path.";
+                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;*/
             }
 
 

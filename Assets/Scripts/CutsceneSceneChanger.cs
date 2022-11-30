@@ -16,5 +16,10 @@ public class CutsceneSceneChanger : MonoBehaviour
         {
             SceneManager.LoadScene(newScene);
         }
+
+        if(Input.GetKeyDown(KeyCode.Space)|| Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene(newScene);
+        }
     }
 }
