@@ -10,7 +10,6 @@ public class NPCDialogue : MonoBehaviour
     public GameObject DialogueWindow;
     public GameObject textbox;
     public GameObject NPCname;
-    public GameObject cutscene;
     public int NPC;
     private string dialogue;
     // Start is called before the first frame update
@@ -26,20 +25,9 @@ public class NPCDialogue : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.Return))
         {
             DialogueWindow.gameObject.SetActive(false);
-            cutscene.SetActive(true);
         }
     }
-    void SendToBeginning()
-    {
-        float cutscenetime = Time.deltaTime + 3;
-        cutscene.SetActive(true);
-        while (cutscenetime >= Time.deltaTime)
-        {
-
-        }
-        SceneManager.LoadScene("Forest");
-
-    }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -93,16 +81,16 @@ public class NPCDialogue : MonoBehaviour
                     NPCname.GetComponent<TMP_Text>().text = "Gator";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
-                /*case 10:
-                    dialogue = "It’s dangerous to go alone, go find a better path.";
-                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                case 10:
+                    dialogue = "Ya know you can just walk right into any o' our homes! We don't bite . . tooooo hard.";
+                    NPCname.GetComponent<TMP_Text>().text = "Millipede";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
                 case 11:
                     dialogue = "It’s dangerous to go alone, go find a better path.";
                     NPCname.GetComponent<TMP_Text>().text = "Gator";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
-                    break;*/
+                    break;
             }
 
 
