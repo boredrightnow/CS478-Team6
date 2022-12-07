@@ -87,7 +87,7 @@ public class NPCDialogue : MonoBehaviour
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
                 case 11:
-                    dialogue = "It’s dangerous to go alone, go find a better path.";
+                    dialogue = "HMM GRRR MHFMH (Why're you here? You went the wrong way)";
                     NPCname.GetComponent<TMP_Text>().text = "Gator";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
