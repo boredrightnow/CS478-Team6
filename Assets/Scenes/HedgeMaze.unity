@@ -30969,6 +30969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 3984088200534075378, guid: 3e2b919513095ae49a0656348ef5bece, type: 3}
+      propertyPath: newLevel
+      value: BeginningTownCutscene
+      objectReference: {fileID: 0}
     - target: {fileID: 8218113718095313759, guid: 3e2b919513095ae49a0656348ef5bece, type: 3}
       propertyPath: m_RootOrder
       value: 3
