@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TownFinal.unity
     guid: a131cbfcd44b4ad4eb4ff1d9c2528438
+  - enabled: 1
+    path: Assets/Scenes/EndCredits.unity
+    guid: 45556973ab7b76d449ac22cc7ce3ac2c
   m_configObjects: {}

@@ -91,6 +91,16 @@ public class NPCDialogue : MonoBehaviour
                     NPCname.GetComponent<TMP_Text>().text = "Gator";
                     textbox.GetComponent<TMP_Text>().text = dialogue;
                     break;
+                case 12:
+                    dialogue = "MHHHHHHHHHHHHHHHM (Lovely day to go fishing)";
+                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
+                case 13:
+                    dialogue = "GRRR UHHH ARGHHHH (I am very lost too)";
+                    NPCname.GetComponent<TMP_Text>().text = "Gator";
+                    textbox.GetComponent<TMP_Text>().text = dialogue;
+                    break;
             }
 
 
