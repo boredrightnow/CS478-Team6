@@ -47,12 +47,12 @@ TagManager:
   - name: Forground
     uniqueID: 4179849553
     locked: 0
+  - name: NPC
+    uniqueID: 2263241367
+    locked: 0
   - name: Player
     uniqueID: 2324775929
     locked: 0
   - name: Front
     uniqueID: 3473217693
-    locked: 0
-  - name: NPC
-    uniqueID: 2263241367
     locked: 0
