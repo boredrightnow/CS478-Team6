@@ -29,3 +29,44 @@ Character/NPC Designs by Charles Gabriel, for OpenGameArt.org (http://opengamear
 Tilesets by Hyptosis and Zabin from OpenGameArt.Org
 
 Candy Sets in Public Domain uploaded to OpenGameArt.org by Master484
+
+Music:
+-------
+
+Wind in Trees Sound Effects - Leaves Rustling in Forest -- Free Audio Zone
+
+Ross Bugden - Haunted
+
+Skeleton Dance - Myuu
+
+Wind Blowing in Field Relaxing Sounds -- Nature Relax
+
+10 FREE WALKING FOOTSTEPS SOUND EFFECTS // You Must Download // No Copyright -- CLEREMTV
+
+TipToes -- Myuu
+
+Reveal Suspense Sound Effect (No Copyright) (Free) -- Free SFX
+
+Evil Laugh Sound Effect | No Copyright -- Foja Famz Vlogs
+
+D&D Ambience - Town Square Daytime -- Sword Coast Soundscapes
+
+TipToes -- Myuu
+
+Forest Footsteps sound effect no copyright | games footsteps | run sounds | HQ -- SFX Studio
+
+Lurking shadows -- Myuu
+
+Cold wind sound effect -- Audio Sound Effect
+
+STROLLING AROUND -- Myuu
+
+Free Sound Effects - Nature Sounds Birds (Royalty free Nature Sounds No Copyright Sound Effects) -- BurghRecords
+
+Tragic Story -- Myuu
+
+ Cave #2 | Ambience | Sound Effect -- CNV Sound
+
+Water Dripping in Cave Sounds -- Animals & Naturals Sounds -- No Copyright Sound Effect -- Sound Library
+
+Halloween -- Synthezx
