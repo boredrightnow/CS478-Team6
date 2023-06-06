@@ -30,6 +30,10 @@ Tilesets by Hyptosis and Zabin from OpenGameArt.Org
 
 Candy Sets in Public Domain uploaded to OpenGameArt.org by Master484
 
+SFG’s Crab Monster Recolors uploaded to stardewvalleymods.com
+
+10 Basic Message Boxes by Charles Gabriel uploaded to OpenGameArt.org
+
 Music:
 -------
 
@@ -60,6 +64,8 @@ Lurking shadows -- Myuu
 Cold wind sound effect -- Audio Sound Effect
 
 STROLLING AROUND -- Myuu
+
+Medieval Times: Triumphant -- Symphonickey
 
 Free Sound Effects - Nature Sounds Birds (Royalty free Nature Sounds No Copyright Sound Effects) -- BurghRecords
 
